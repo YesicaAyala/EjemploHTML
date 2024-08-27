@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
-
-        if(username === "admin" && password === "1234") {
+        if(username === "admin" && password === "4321") {
             window.location.href = "index.html";
         } else {
             alert("Usuario o contraseña incorrectos");
